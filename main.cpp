@@ -8,23 +8,33 @@
 //    int iFileSize=10; //Hungarian Notation
 //    return 0;
 //}
+//
+//int main() {
+//    int x=2;
+//    int y=3;
+//    int z=x+y;
+//    std::cout<<z;
+//    std::cout<<"\n";
+//    int I = x/y;
+//    float II=(float )x/(float)y;
+//    std::cout<<I;
+//    std::cout<<"\n";
+//    std::cout<<II;
+//    std::cout<<"\n";
+//    std::cout<<I++;
+//    std::cout<<"\n";
+//    std::cout<<I;
+//    std::cout<<"\n";
+//    std::cout<<++I;
+//    return 0;
+//}
+
 
 int main() {
-    int x=2;
-    int y=3;
-    int z=x+y;
+    double x=10;
+    double y= 5;
+
+   double  z= (x+10)/(3*y);
     std::cout<<z;
-    std::cout<<"\n";
-    int I = x/y;
-    float II=(float )x/(float)y;
-    std::cout<<I;
-    std::cout<<"\n";
-    std::cout<<II;
-    std::cout<<"\n";
-    std::cout<<I++;
-    std::cout<<"\n";
-    std::cout<<I;
-    std::cout<<"\n";
-    std::cout<<++I;
     return 0;
 }
