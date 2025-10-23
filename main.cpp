@@ -51,6 +51,8 @@ int main() {
     cout<<"Salary = $"<<slary<<endl;
     double stateTax= slary*0.04;
     cout<<"state Tax = $"<<stateTax<<endl;
-
+    int value;
+    cin>>value;
+    cout<<value<<endl;
     return 0;
 }
