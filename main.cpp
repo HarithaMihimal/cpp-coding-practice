@@ -1,5 +1,5 @@
 #include <iostream>
-
+using namespace std;
 //int main() {
 //    const double pi = 3.14;
 //    int file_size=10; //Snake case
@@ -30,11 +30,18 @@
 //}
 
 
-int main() {
-    double x=10;
-    double y= 5;
+//int main() {
+//    double x=10;
+//    double y= 5;
+//    double  z= (x+10)/(3*y);
+//    std::cout<<z;
+//    return 0;
+//}
 
-   double  z= (x+10)/(3*y);
-    std::cout<<z;
+int main() {
+    int x=10;
+    std::cout<<x<<std::endl;
+    int y=10;
+    std::cout<<y;
     return 0;
 }
