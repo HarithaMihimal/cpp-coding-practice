@@ -38,10 +38,19 @@ using namespace std;
 //    return 0;
 //}
 
+//int main() {
+//    int x=10;
+//    std::cout<<x<<std::endl;
+//    int y=10;
+//    std::cout<<y;
+//    return 0;
+//}
+
 int main() {
-    int x=10;
-    std::cout<<x<<std::endl;
-    int y=10;
-    std::cout<<y;
+    double slary=95000;
+    cout<<"Salary = $"<<slary<<endl;
+    double stateTax= slary*0.04;
+    cout<<"state Tax = $"<<stateTax<<endl;
+
     return 0;
 }
