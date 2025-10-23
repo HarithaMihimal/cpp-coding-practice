@@ -20,5 +20,11 @@ int main() {
     std::cout<<I;
     std::cout<<"\n";
     std::cout<<II;
+    std::cout<<"\n";
+    std::cout<<I++;
+    std::cout<<"\n";
+    std::cout<<I;
+    std::cout<<"\n";
+    std::cout<<++I;
     return 0;
 }
