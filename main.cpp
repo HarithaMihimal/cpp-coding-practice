@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 //int main() {
 //    const double pi = 3.14;
@@ -46,13 +47,19 @@ using namespace std;
 //    return 0;
 //}
 
+//int main() {
+//    double slary=95000;
+//    cout<<"Salary = $"<<slary<<endl;
+//    double stateTax= slary*0.04;
+//    cout<<"state Tax = $"<<stateTax<<endl;
+//    int value;
+//    cin>>value;
+//    cout<<value<<endl;
+//    return 0;
+//}
+
 int main() {
-    double slary=95000;
-    cout<<"Salary = $"<<slary<<endl;
-    double stateTax= slary*0.04;
-    cout<<"state Tax = $"<<stateTax<<endl;
-    int value;
-    cin>>value;
-    cout<<value<<endl;
+    double result = floor(1.2);
+    cout<<result;
     return 0;
 }
