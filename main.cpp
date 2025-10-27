@@ -58,13 +58,24 @@ using namespace std;
 //    return 0;
 //}
 
-int main() {
-    double result = floor(1.2);
-    cout<<result<<endl;
-    double result2 = pow(2,3);
-    cout<<result2<<endl;
+//int main() {
+//    double result = floor(1.2);
+//    cout<<result<<endl;
+//    double result2 = pow(2,3);
+//    cout<<result2<<endl;
+//
+//    double area = pow(7,2)* numbers::pi;
+//    cout<<area;
+//    return 0;
+//}
 
-    double area = pow(7,2)* numbers::pi;
-    cout<<area;
+int main() {
+    // comments
+
+    /*sfsf
+     * sfsf
+     * sfsf
+     * sfsfgg
+     * */
     return 0;
 }
